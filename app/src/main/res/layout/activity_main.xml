@@ -12,7 +12,7 @@
     <com.google.android.gms.maps.MapView
         android:id="@+id/map_view"
         android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:layout_height="270dp" />
 
     <Button
         android:id="@+id/btnLoc"
@@ -20,4 +20,15 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:text="Localizar" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
